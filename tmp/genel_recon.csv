@@ -1,0 +1,15 @@
+Field,Status,TermValue,BookingValue
+ISIN,MISMATCH,NO 0010894330,NO0010894330
+Issuer,MATCH,Genel Energy Finance 4 Limited,Genel Energy Finance 4 Limited
+Parent,MATCH,Genel Energy plc,Genel Energy plc
+IssueDate,MATCH,2020-10-14,2020-10-14
+SettlementDate,MISMATCH,,2020-10-14
+MaturityDate,MISMATCH,2025-10-14,
+CouponRatePercent,MISMATCH,9.25,
+CouponFrequency,MISMATCH,semi-annual,
+Currency,MATCH,USD,USD
+IssueAmount,MATCH,300000000.0,300000000.0
+Notional,MISMATCH,,3000000
+IssuePricePercent,MISMATCH,97,
+NominalAmountPerBond,MATCH,2000.0,2000.0
+DayCountFraction,MATCH,30/360,30/360

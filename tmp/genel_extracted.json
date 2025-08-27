@@ -1,0 +1,25 @@
+{
+  "ISIN": "NO 0010894330",
+  "Issuer": "Genel Energy Finance 4 Limited",
+  "Parent": "Genel Energy plc",
+  "IssueDate": "2020-10-14",
+  "SettlementDate": null,
+  "MaturityDate": "2025-10-14",
+  "CouponRatePercent": 9.25,
+  "CouponFrequency": "semi-annual",
+  "Currency": "USD",
+  "IssueAmount": 300000000,
+  "Notional": null,
+  "IssuePricePercent": 97,
+  "NominalAmountPerBond": 2000,
+  "DayCountFraction": "30/360",
+  "BusinessDayConvention": "unadjusted",
+  "BusinessDayLocation": [
+    "Oslo",
+    "New York"
+  ],
+  "InterestPaymentDates": [
+    "2021-04-14"
+  ],
+  "MinimumSubscription": 200000
+}
