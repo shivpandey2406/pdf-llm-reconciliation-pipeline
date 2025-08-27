@@ -1,0 +1,6 @@
+pandas
+pdfplumber
+python-dateutil
+python-dotenv
+openai   
+langchain-groq

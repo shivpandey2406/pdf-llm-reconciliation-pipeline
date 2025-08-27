@@ -1,0 +1,33 @@
+# Mappings and rules for reconciliation
+fields:
+  - name: ISIN
+  - name: Issuer
+  - name: Parent
+  - name: Guarantors
+  - name: Currency
+  - name: Issue Amount
+  - name: Coupon Rate
+  - name: Day Count
+  - name: Business Day Convention
+  - name: Interest Frequency
+  - name: Issue Date
+  - name: First Interest Payment Date
+  - name: Maturity Date
+  - name: Face Value
+  - name: Credit Rating
+  - name: Security
+  - name: Coupon Type
+  - name: Coupon Payment Frequency
+  - name: Coupon Payment Dates
+  - name: Tenor
+  - name: Record Date
+
+primary_key: ISIN
+
+comparison:
+  # normalize numeric percent fields by extracting first numeric token
+  numeric_percent_fields: ["Coupon Rate"]
+  # date fields to normalize to ISO
+  date_fields: ["Issue Date", "First Interest Payment Date", "Maturity Date", "Coupon Payment Dates", "Record Date"]
+  # tokens to ignore during comparison (case-insensitive)
+  ignore_tokens: [",", ".", "%", "p.a.", "per annum"]
